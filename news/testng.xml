@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="Tests">
-
-	<listeners>
-		<listener class-name="utils.Listeners"/>
-	</listeners>
-	<test name="Test_Chrome">									
+		<test name="Test_Chrome">									
 		
 		<classes>
 			<class name="baseClass.TestRunner" />

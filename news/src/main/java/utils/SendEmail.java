@@ -17,16 +17,15 @@ public class SendEmail {
 		  // Create the email message
 		  MultiPartEmail email = new MultiPartEmail();
 		  email.setHostName("mail.myserver.com");
-		  email.addTo("jdoe@somewhere.org", "John Doe");
-		  email.setFrom("me@apache.org", "Me");
-		  email.setSubject("The picture");
-		  email.setMsg("Here is the picture you wanted");
-	
-		  // add the attachment
-		  email.attach(attachment);
-	
-		  // send the email
-		  email.send();
+			/*
+			 * email.addTo("jdoe@somewhere.org", "John Doe"); email.setFrom("me@apache.org",
+			 * "Me"); email.setSubject("The picture");
+			 * email.setMsg("Here is the picture you wanted");
+			 * 
+			 * // add the attachment email.attach(attachment);
+			 * 
+			 * // send the email email.send();
+			 */
 		 
 	  }
 
