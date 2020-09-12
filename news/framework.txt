@@ -1,0 +1,18 @@
+test base class 
+Page object model
+Page Factory- get more clarity for the same
+Fucntions
+TestNG
+screenshots - make it failed only screenshots- done
+extent report
+DriverManager
+Listeners benefits
+iTestResults
+sending emails- apache common emails
+Property File- with variable separated for browsers
+Excel File
+
+Selenium practices in real projects
+Version control
+Jenkins
+
