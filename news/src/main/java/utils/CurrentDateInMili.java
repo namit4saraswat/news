@@ -1,5 +1,6 @@
 package utils;
 
+
 import java.util.Date;
 
 public class CurrentDateInMili {
@@ -10,7 +11,8 @@ public class CurrentDateInMili {
 	 Date date = new Date();
 	 
 	 long timeMilli = date.getTime();
-	 
+	
+			 
 	 return timeMilli;
 	}
 }

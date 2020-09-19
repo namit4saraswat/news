@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Setting up Driver, extent etc.]]>
-    </line>
-    <line>
-      <![CDATA[Setting up Driver, extent etc.]]>
-    </line>
-    <line>
-      <![CDATA[Set up has been done]]>
-    </line>
-    <line>
-      <![CDATA[Set up has been done]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="80855" started-at="2020-09-11T11:13:14 IST" finished-at="2020-09-11T11:14:35 IST">
+  <suite name="Suite" duration-ms="458" started-at="2020-09-19T08:15:09 IST" finished-at="2020-09-19T08:15:09 IST">
     <groups>
     </groups>
-    <test name="Test_Chrome" duration-ms="47879" started-at="2020-09-11T11:13:14 IST" finished-at="2020-09-11T11:14:02 IST">
+    <test name="Test_Chrome" duration-ms="458" started-at="2020-09-19T08:15:09 IST" finished-at="2020-09-19T08:15:09 IST">
       <class name="baseClass.TestRunner">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:baseClass.TestRunner@74650e52]" name="setup" is-config="true" duration-ms="18250" started-at="2020-09-11T11:13:14 IST" finished-at="2020-09-11T11:13:32 IST">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:baseClass.TestRunner@2d8f65a4]" name="setup" is-config="true" duration-ms="356" started-at="2020-09-19T08:15:09 IST" finished-at="2020-09-19T08:15:09 IST">
           <params>
             <param index="0">
               <value>
@@ -27,183 +15,41 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Setting up Driver, extent etc.]]>
-            </line>
-            <line>
-              <![CDATA[Set up has been done]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_today(java.lang.String)[pri:1, instance:baseClass.TestRunner@74650e52]" name="test_today" duration-ms="18661" started-at="2020-09-11T11:13:32 IST" finished-at="2020-09-11T11:13:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://google.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_today -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@74650e52]" name="repoInputs" is-config="true" duration-ms="2266" started-at="2020-09-11T11:13:51 IST" finished-at="2020-09-11T11:13:53 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_today status=SUCCESS method=TestRunner.test_today(java.lang.String)[pri:1, instance:baseClass.TestRunner@74650e52] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repoInputs -->
-        <test-method status="PASS" signature="test_old(java.lang.String)[pri:2, instance:baseClass.TestRunner@74650e52]" name="test_old" duration-ms="7522" started-at="2020-09-11T11:13:53 IST" finished-at="2020-09-11T11:14:01 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://google.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_old -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@74650e52]" name="repoInputs" is-config="true" duration-ms="586" started-at="2020-09-11T11:14:01 IST" finished-at="2020-09-11T11:14:01 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_old status=SUCCESS method=TestRunner.test_old(java.lang.String)[pri:2, instance:baseClass.TestRunner@74650e52] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repoInputs -->
-        <test-method status="PASS" signature="test3()[pri:3, instance:baseClass.TestRunner@74650e52]" name="test3" duration-ms="3" started-at="2020-09-11T11:14:01 IST" finished-at="2020-09-11T11:14:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@74650e52]" name="repoInputs" is-config="true" duration-ms="514" started-at="2020-09-11T11:14:01 IST" finished-at="2020-09-11T11:14:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test3 status=SUCCESS method=TestRunner.test3()[pri:3, instance:baseClass.TestRunner@74650e52] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repoInputs -->
-      </class> <!-- baseClass.TestRunner -->
-    </test> <!-- Test_Chrome -->
-    <test name="Test_Firefox" duration-ms="80855" started-at="2020-09-11T11:13:14 IST" finished-at="2020-09-11T11:14:35 IST">
-      <class name="baseClass.TestRunner">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:baseClass.TestRunner@4b553d26]" name="setup" is-config="true" duration-ms="63553" started-at="2020-09-11T11:13:14 IST" finished-at="2020-09-11T11:14:17 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Setting up Driver, extent etc.]]>
-            </line>
-            <line>
-              <![CDATA[Set up has been done]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_today(java.lang.String)[pri:1, instance:baseClass.TestRunner@4b553d26]" name="test_today" duration-ms="10386" started-at="2020-09-11T11:14:17 IST" finished-at="2020-09-11T11:14:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://google.com/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: #rso > div > div > div > a > h3
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T22QK0I', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 15388, moz:profile: C:\Users\namit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bfb7d244-bfa6-43d1-8eeb-2b9acb6aaea6
-*** Element info: {Using=css selector, value=#rso > div > div > div > a > h3}]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #rso > div > div > div > a > h3
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T22QK0I', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 15388, moz:profile: C:\Users\namit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bfb7d244-bfa6-43d1-8eeb-2b9acb6aaea6
-*** Element info: {Using=css selector, value=#rso > div > div > div > a > h3}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.getText(Unknown Source)
-at pages.TodayNews.news_today(TodayNews.java:27)
-at baseClass.TestRunner.test_today(TestRunner.java:51)
+              <![CDATA[java.lang.NullPointerException
+at baseClass.TestRunner.setup(TestRunner.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_today -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@4b553d26]" name="repoInputs" is-config="true" duration-ms="1471" started-at="2020-09-11T11:14:28 IST" finished-at="2020-09-11T11:14:29 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_today status=FAILURE method=TestRunner.test_today(java.lang.String)[pri:1, instance:baseClass.TestRunner@4b553d26] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repoInputs -->
-        <test-method status="FAIL" signature="test_old(java.lang.String)[pri:2, instance:baseClass.TestRunner@4b553d26]" name="test_old" duration-ms="5069" started-at="2020-09-11T11:14:29 IST" finished-at="2020-09-11T11:14:34 IST">
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test_today(java.lang.String)[pri:1, instance:baseClass.TestRunner@2d8f65a4]" name="test_today" duration-ms="0" started-at="2020-09-19T08:15:09 IST" finished-at="2020-09-19T08:15:09 IST">
           <params>
             <param index="0">
               <value>
@@ -211,105 +57,95 @@ at java.lang.Thread.run(Unknown Source)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: #rso > div > div > div > a > h3
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T22QK0I', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 15388, moz:profile: C:\Users\namit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bfb7d244-bfa6-43d1-8eeb-2b9acb6aaea6
-*** Element info: {Using=css selector, value=#rso > div > div > div > a > h3}]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #rso > div > div > div > a > h3
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T22QK0I', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 15388, moz:profile: C:\Users\namit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bfb7d244-bfa6-43d1-8eeb-2b9acb6aaea6
-*** Element info: {Using=css selector, value=#rso > div > div > div > a > h3}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.getText(Unknown Source)
-at pages.OldNews.news_old(OldNews.java:26)
-at baseClass.TestRunner.test_old(TestRunner.java:61)
+              <![CDATA[java.lang.NullPointerException
+at baseClass.TestRunner.setup(TestRunner.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_today -->
+        <test-method status="SKIP" signature="repoInputs(java.lang.String, org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@2d8f65a4]" name="repoInputs" is-config="true" duration-ms="-1600483509799" started-at="2020-09-19T08:15:09 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repoInputs -->
+        <test-method status="SKIP" signature="test_old(java.lang.String)[pri:2, instance:baseClass.TestRunner@2d8f65a4]" name="test_old" duration-ms="0" started-at="2020-09-19T08:15:09 IST" finished-at="2020-09-19T08:15:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://google.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at baseClass.TestRunner.setup(TestRunner.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_old -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@4b553d26]" name="repoInputs" is-config="true" duration-ms="131" started-at="2020-09-11T11:14:34 IST" finished-at="2020-09-11T11:14:35 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_old status=FAILURE method=TestRunner.test_old(java.lang.String)[pri:2, instance:baseClass.TestRunner@4b553d26] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="repoInputs(java.lang.String, org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@2d8f65a4]" name="repoInputs" is-config="true" duration-ms="-1600483509809" started-at="2020-09-19T08:15:09 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repoInputs -->
-        <test-method status="PASS" signature="test3()[pri:3, instance:baseClass.TestRunner@4b553d26]" name="test3" duration-ms="2" started-at="2020-09-11T11:14:35 IST" finished-at="2020-09-11T11:14:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="repoInputs(org.testng.ITestResult)[pri:0, instance:baseClass.TestRunner@4b553d26]" name="repoInputs" is-config="true" duration-ms="114" started-at="2020-09-11T11:14:35 IST" finished-at="2020-09-11T11:14:35 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test3 status=SUCCESS method=TestRunner.test3()[pri:3, instance:baseClass.TestRunner@4b553d26] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repoInputs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:baseClass.TestRunner@4b553d26]" name="tearDown" is-config="true" duration-ms="9632" started-at="2020-09-11T11:14:35 IST" finished-at="2020-09-11T11:14:44 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:baseClass.TestRunner@2d8f65a4]" name="tearDown" is-config="true" duration-ms="-1600483510415" started-at="2020-09-19T08:15:10 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- baseClass.TestRunner -->
-    </test> <!-- Test_Firefox -->
+    </test> <!-- Test_Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

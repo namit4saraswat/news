@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="Tests">
-		<test name="Test_Chrome">									
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="utils.Listeners"/>
+	</listeners>
+	<test name="Test_Chrome">									
 		
 		<classes>
 			<class name="baseClass.TestRunner" />
@@ -10,12 +14,12 @@
 		</classes>
 	</test> 
 	
-	<test name="Test_Firefox">
+	<!-- <test name="Test_Firefox">
 		
 		<classes>
 			<class name="baseClass.TestRunner" />
 			<parameter name="browser" value="firefox" />
 			<parameter name="url" value="https://google.com/" />
 		</classes>
-	</test>
+	</test> -->
 </suite> <!-- Suite -->
